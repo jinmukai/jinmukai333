@@ -3,91 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>个人首页 - 你的名字</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>个人网站 - 你的名字</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <header class="bg-primary text-white text-center py-5">
+    <header>
         <h1>欢迎来到我的个人网站</h1>
-        <p>这里是我的小宇宙</p>
+        <nav>
+            <ul>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#portfolio">作品集</a></li>
+                <li><a href="#blog">博客</a></li>
+                <li><a href="#contact">联系方式</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">我的名字</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">关于我</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">作品集</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">联系方式</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
-    <section id="about" class="container my-5">
+    <section id="about">
         <h2>关于我</h2>
-        <p>这里可以写一些关于你自己的信息，兴趣，背景等。</p>
+        <p>帅气的杭州00后。</p>
     </section>
 
-    <section id="portfolio" class="container my-5">
+    <section id="portfolio">
         <h2>作品集</h2>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="作品1">
-                    <div class="card-body">
-                        <h5 class="card-title">作品标题1</h5>
-                        <p class="card-text">作品描述。</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="作品2">
-                    <div class="card-body">
-                        <h5 class="card-title">作品标题2</h5>
-                        <p class="card-text">作品描述。</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card">
-                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="作品3">
-                    <div class="card-body">
-                        <h5 class="card-title">作品标题3</h5>
-                        <p class="card-text">作品描述。</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <p>在这里展示你的项目和作品。</p>
+        <!-- 可以添加项目链接和图片 -->
     </section>
 
-    <section id="contact" class="container my-5">
+    <section id="blog">
+        <h2>博客</h2>
+        <p>分享你的想法和经历，或者链接到你的社交媒体。</p>
+    </section>
+
+    <section id="contact">
         <h2>联系方式</h2>
-        <p>你可以通过以下方式联系我:</p>
-        <ul>
-            <li>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></li>
-            <li>Twitter: <a href="https://twitter.com/yourprofile" target="_blank">@yourprofile</a></li>
-            <li>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">链接</a></li>
-        </ul>
+        <p>请联系我: <a href="mailto:your.email@example.com">22486129996@qq.com</a></p>
     </section>
 
-    <footer class="text-center py-4">
-        <p>© 2023 你的名字</p>
+    <footer>
+        <p>© 金沐恺. 保留所有权利。</p>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
